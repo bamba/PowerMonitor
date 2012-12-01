@@ -1,9 +1,10 @@
 package com.powermonitor;
 
-import android.R.string;
+import java.util.List;
 
 public class Station {
 	
-	string name;
+	String name;
 	Location location;
+	List<Detail> details;
 }
