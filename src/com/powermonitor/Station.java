@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Station {
 	
-	String name;
-	Location location;
-	List<Detail> details;
+	public String name;
+	public Location location;
+	public List<Detail> details;
 }
