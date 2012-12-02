@@ -17,7 +17,6 @@ public class StationDetailActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
 
 		TextView txtStationName = (TextView) findViewById(R.id.txtStationName);
 		TextView txtStationLocation = (TextView) findViewById(R.id.txtLocation);
